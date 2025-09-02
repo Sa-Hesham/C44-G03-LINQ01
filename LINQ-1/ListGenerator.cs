@@ -12,6 +12,7 @@ namespace LINQ_1
       
         internal static List<Customer> Customers { get ; set; }
         internal static List<Product> Products { get ; set ; }
+       internal static List <Order> orders{ get ; set ; }
 
         static  ListGenerator()
         {
@@ -203,6 +204,61 @@ namespace LINQ_1
     }
 ).ToList();
             
+
+            orders=new List<Order>() {
+
+             new Order { OrderID = 1, OrderDate = new DateTime(2025, 1, 15), Total = 150.75m },
+            new Order { OrderID = 2, OrderDate = new DateTime(2025, 2, 10), Total = 300.50m },
+            new Order { OrderID = 3, OrderDate = new DateTime(2025, 3, 5), Total = 99.99m },
+            new Order { OrderID = 4, OrderDate = new DateTime(2025, 4, 1), Total = 450.00m },
+            new Order { OrderID = 5, OrderDate = new DateTime(2025, 4, 15), Total = 120.25m },
+            new Order { OrderID = 6, OrderDate = new DateTime(2025, 5, 2), Total = 220.00m },
+            new Order { OrderID = 7, OrderDate = new DateTime(2025, 5, 18), Total = 330.10m },
+            new Order { OrderID = 8, OrderDate = new DateTime(2025, 6, 4), Total = 85.90m },
+            new Order { OrderID = 9, OrderDate = new DateTime(2025, 6, 20), Total = 640.50m },
+            new Order { OrderID = 10, OrderDate = new DateTime(2025, 7, 1), Total = 410.75m },
+            new Order { OrderID = 11, OrderDate = new DateTime(2025, 7, 15), Total = 250.60m },
+            new Order { OrderID = 12, OrderDate = new DateTime(2025, 8, 3), Total = 99.00m },
+            new Order { OrderID = 13, OrderDate = new DateTime(2025, 8, 18), Total = 520.40m },
+            new Order { OrderID = 14, OrderDate = new DateTime(2025, 9, 7), Total = 310.20m },
+            new Order { OrderID = 15, OrderDate = new DateTime(2025, 9, 22), Total = 715.35m },
+            new Order { OrderID = 16, OrderDate = new DateTime(2025, 10, 10), Total = 120.99m },
+            new Order { OrderID = 17, OrderDate = new DateTime(2025, 10, 25), Total = 305.70m },
+            new Order { OrderID = 18, OrderDate = new DateTime(2025, 11, 2), Total = 499.95m },
+            new Order { OrderID = 19, OrderDate = new DateTime(2025, 11, 16), Total = 610.00m },
+            new Order { OrderID = 20, OrderDate = new DateTime(2025, 12, 1), Total = 85.20m },
+            new Order { OrderID = 21, OrderDate = new DateTime(2025, 12, 15), Total = 200.10m },
+            new Order { OrderID = 22, OrderDate = new DateTime(2025, 12, 28), Total = 325.45m },
+            new Order { OrderID = 23, OrderDate = new DateTime(2025, 1, 6), Total = 710.99m },
+            new Order { OrderID = 24, OrderDate = new DateTime(2025, 1, 20), Total = 150.00m },
+            new Order { OrderID = 25, OrderDate = new DateTime(2025, 2, 5), Total = 245.30m },
+            new Order { OrderID = 26, OrderDate = new DateTime(2025, 2, 19), Total = 380.75m },
+            new Order { OrderID = 27, OrderDate = new DateTime(2025, 3, 10), Total = 490.90m },
+            new Order { OrderID = 28, OrderDate = new DateTime(2025, 3, 24), Total = 199.99m },
+            new Order { OrderID = 29, OrderDate = new DateTime(2025, 4, 8), Total = 350.60m },
+            new Order { OrderID = 30, OrderDate = new DateTime(2025, 4, 22), Total = 780.45m },
+            new Order { OrderID = 31, OrderDate = new DateTime(2025, 5, 7), Total = 120.00m },
+            new Order { OrderID = 32, OrderDate = new DateTime(2025, 5, 21), Total = 305.80m },
+            new Order { OrderID = 33, OrderDate = new DateTime(2025, 6, 5), Total = 605.15m },
+            new Order { OrderID = 34, OrderDate = new DateTime(2025, 6, 19), Total = 88.99m },
+            new Order { OrderID = 35, OrderDate = new DateTime(2025, 7, 3), Total = 470.00m },
+            new Order { OrderID = 36, OrderDate = new DateTime(2025, 7, 17), Total = 560.25m },
+            new Order { OrderID = 37, OrderDate = new DateTime(2025, 8, 1), Total = 299.50m },
+            new Order { OrderID = 38, OrderDate = new DateTime(2025, 8, 15), Total = 400.00m },
+            new Order { OrderID = 39, OrderDate = new DateTime(2025, 8, 29), Total = 210.90m },
+            new Order { OrderID = 40, OrderDate = new DateTime(2025, 9, 12), Total = 325.00m },
+            new Order { OrderID = 41, OrderDate = new DateTime(2025, 9, 26), Total = 555.75m },
+            new Order { OrderID = 42, OrderDate = new DateTime(2025, 10, 11), Total = 640.20m },
+            new Order { OrderID = 43, OrderDate = new DateTime(2025, 10, 25), Total = 110.00m },
+            new Order { OrderID = 44, OrderDate = new DateTime(2025, 11, 9), Total = 199.95m },
+            new Order { OrderID = 45, OrderDate = new DateTime(2025, 11, 23), Total = 425.30m },
+            new Order { OrderID = 46, OrderDate = new DateTime(2025, 12, 7), Total = 520.00m },
+            new Order { OrderID = 47, OrderDate = new DateTime(2025, 12, 21), Total = 315.10m },
+            new Order { OrderID = 48, OrderDate = new DateTime(2025, 12, 31), Total = 99.99m },
+            new Order { OrderID = 49, OrderDate = new DateTime(2025, 1, 12), Total = 175.50m },
+            new Order { OrderID = 50, OrderDate = new DateTime(2025, 2, 25), Total = 260.60m }
+
+            };
                         
 
         }
